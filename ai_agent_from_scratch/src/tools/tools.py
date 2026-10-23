@@ -1,6 +1,6 @@
-import calculator 
-import get_weather
-import convert_currency
+from src.tools.calculator import calculator
+from src.tools.get_weather import get_weather
+from src.tools.convert_currency import convert_currency
 
 TOOL_SCHEMAS =[
     {
